@@ -1,9 +1,9 @@
-# tasks/task1.py
+﻿# tasks/task1.py
 
 def solve():
-# Ниже пишите решение задачи
-    
-        
-# Код ниже не трогать! он нужен для тестов
-if __name__ == "__main__":
+    word = input()
+    print(' '.join([word] * 4))
+
+# Leave the code below unchanged; it is used for tests
+if __name__ == '__main__':
     solve()
